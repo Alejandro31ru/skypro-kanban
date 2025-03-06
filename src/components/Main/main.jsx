@@ -1,8 +1,8 @@
-import NoStat from '../Column/Column_noStat/noStat'
-import ToDoo from '../Column/Column_toDoo/toDoo'
-import AtWork from '../Column/Column_atWork/atWork'
-import Testing from '../Column/Column_testing/testing'
-import Done from '../Column/Column_done/done';
+import NoStat from '../Column/ColumnNoStat/ColumnNoStat'
+import ToDoo from '../Column/ColumnToDoo/ColumnToDoo'
+import AtWork from '../Column/ColumnAtWork/ColumnAtWork'
+import Testing from '../Column/ColumnTesting/ColumnTesting'
+import Done from '../Column/ColumnDone/ColumnDone';
 
 const Main = () => {
     return (
@@ -11,11 +11,11 @@ const Main = () => {
             
             <div className="main__block">
                 <div className="main__content">
-                    {NoStat()}
-                    {ToDoo()}
-                    {AtWork()}
-                    {Testing()}
-                    {Done()}                    
+                    <NoStat/>
+                    <ToDoo/>
+                    <AtWork/>
+                    <Testing/>
+                    <Done/>
                 </div>
             
             </div>

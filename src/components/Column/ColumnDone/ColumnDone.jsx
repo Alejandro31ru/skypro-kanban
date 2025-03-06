@@ -1,4 +1,4 @@
-import CardResearch from "../../Card/Card_Research/cardResearch";
+import CardResearch from "../../Card/CardResearch/CardResearch";
 
 const Done = () => {
     return (
@@ -7,7 +7,7 @@ const Done = () => {
             <p>Готово</p>
         </div>
         <div className="cards">
-            {CardResearch()}
+            <CardResearch/>
         </div>
     </div>
     );

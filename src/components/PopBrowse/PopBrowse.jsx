@@ -1,4 +1,4 @@
-import Calendar from "../Calendar/calendar";
+import Calendar from "../Calendar/Calendar";
 
 const PopBrowse = () => {
     return (
@@ -58,7 +58,7 @@ const PopBrowse = () => {
                                     </div>
                                 </div>
 
-                                {Calendar()}
+                                <Calendar/>
                         
                                 <input type="hidden" id="datepick_value" value="08.09.2023"/>
                                 <div className="calendar__period">
