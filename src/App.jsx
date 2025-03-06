@@ -6,7 +6,7 @@ import './App.css'
 import Header from './components/Header/Header'
 import PopNewCard from './components/PopNewCard/PopNewCard'
 import PopBrowse from './components/PopBrowse/PopBrowse'
-import Main from './components/Main/Main'
+import Main from './components/Main/Main111'
 
 function App() {
   const [count, setCount] = useState(0)
